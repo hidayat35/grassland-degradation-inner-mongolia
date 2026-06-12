@@ -1,0 +1,32 @@
+# Python dependencies for the Inner Mongolia grassland-degradation pipeline.
+# Tested with Python 3.9 (conda). Versions below are known-good; newer minor
+# versions are generally fine.
+
+# --- core scientific stack ---
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+
+# --- geospatial I/O and reprojection ---
+rasterio>=1.3
+geopandas>=0.12
+pyproj>=3.4
+
+# --- NetCDF (SPEI drought data) ---
+xarray>=2022.6
+netCDF4>=1.6
+
+# --- machine learning: attribution (XGBoost + SHAP) ---
+xgboost>=1.7
+shap>=0.41
+scikit-learn>=1.1
+
+# --- deep learning: spatio-temporal graph models (pure PyTorch, no torch-geometric) ---
+# Install the build matching your CUDA version from https://pytorch.org if using a GPU.
+torch>=2.0
+
+# --- plotting ---
+matplotlib>=3.6
+
+# --- optional: export validation points to Google Earth KML ---
+# simplekml>=1.3

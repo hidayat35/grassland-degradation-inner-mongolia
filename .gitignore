@@ -1,0 +1,40 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- data & outputs (NOT version-controlled; see README for sources) ----
+# Raw inputs and all processed outputs live outside the repo (e.g. D:\paper2_outputs).
+# Do not commit large rasters, parquet feature tables, model checkpoints, or figures.
+*.tif
+*.tiff
+*.nc
+*.parquet
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.npy
+*.npz
+01_harmonized_lulc/
+02_fused_lulc/
+03_drivers/
+04_features/
+05_models/
+05_attribution/
+06_causal/
+06_figures/
+07_stgnn/
+07_tables/
+logs/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
