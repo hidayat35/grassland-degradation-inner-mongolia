@@ -1,6 +1,6 @@
 # Causal attribution of grassland degradation in Inner Mongolia
 
-Code for the study *"Causal attribution of grassland degradation in Inner Mongolia via multi-product land-cover fusion and spatio-temporal graph neural networks (2000–2024)."*
+Code for the study *"Locally governed grassland recovery supports zone-specific restoration management in Inner Mongolia, 2000–2024"*
 
 The pipeline (1) fuses eight independent land-cover products into a 14-class record with per-pixel uncertainty using a hierarchical two-tier Bayesian scheme, (2) attributes the resulting land-cover transitions to environmental and anthropogenic drivers using gradient boosting with SHAP for association and FDR-corrected Granger causality with surrogate-tested convergent cross mapping (CCM) for causation, and (3) tests whether grassland change propagates spatially using a spatio-temporal graph-neural-network comparison.
 
